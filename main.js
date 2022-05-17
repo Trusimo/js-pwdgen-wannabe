@@ -1,6 +1,6 @@
-const nomeUtente = prompt("Qual è il tuo nome?");
-const cognomeUtente = prompt("Qual è il tuo cognome?");
-const colorePreferitoUtente = prompt("Qual è il tuo colore preferito?");
+var nomeUtente = prompt("Qual è il tuo nome?");
+var cognomeUtente = prompt("Qual è il tuo cognome?");
+var colorePreferitoUtente = prompt("Qual è il tuo colore preferito?");
 
 document.getElementById(NomeCognomeColore).innerHTML = (nomeUtente + cognomeUtente + colorePreferitoUtente);
 
